@@ -1,0 +1,22 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts" !default;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// menu acive
+.router-link-exact-active{
+    background-color: rgb(255, 127, 7);
+    color: rgb(8, 250, 238);
+    font-style: italic;
+    font-weight: bold;
+}
